@@ -1,0 +1,89 @@
+/* passed code refactor 5/7/23 */
+
+.centeredContent {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  width: 50vw; /* Half the width of the viewport */
+  margin: auto; /* Ensures the content is centered in the screen horizontally */
+}
+
+.nextStepsSteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 6px;
+  gap: 16px;
+}
+
+.nextStepStepsMinWidth {
+  min-width: 360px;
+}
+
+.nextStepsStep {
+  padding: 0px 24px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nextStepsStepPointer {
+  cursor: pointer;
+}
+
+.nextStepsStep > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nextStepsStepIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.nextStepsSetSelectIcon {
+  width: 5px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.nextSteps {
+  border: 0.5px solid #ededed;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.02);
+  border-radius: 1rem;
+  width: 50vh;
+  margin-top: 16px;
+}
+
+.nextStepsHeader {
+  padding: 24px 24px 0px 24px;
+}
+
+.nextStepsHeader > h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.nextStepsHeaderProgressBar {
+  margin-top: 13px;
+  width: 100%;
+  display: flex;
+  gap: 3px;
+}
+
+.nextStepsHeaderCompletedBar {
+  height: 3px;
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.nextStepsHeaderIncompleteBar {
+  height: 3px;
+  width: 100%;
+  background-color: #f0f0f0;
+}

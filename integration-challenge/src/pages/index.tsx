@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Checklist.module.css";
 import Checklist from "@/components/Checklist";

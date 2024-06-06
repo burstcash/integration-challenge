@@ -67,10 +67,6 @@ const OnboardingItem = ({
 export default function Checklist() {
   const router = useRouter();
 
-  useEffect(() => {
-    console.log(getOnboardingList());
-  }, []);
-
   const getOnboardingList = () => {
     const onboardingList: {
       id: string;
